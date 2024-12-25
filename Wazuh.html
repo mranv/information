@@ -1,9 +1,104 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>Wazuh SIEM - Comprehensive Guide</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!-- Basic Meta Tags -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title -->
+<title>Wazuh SIEM - Comprehensive Guide by Anubhav Gain | BeyondTheFirewall</title>
+
+<!-- SEO Meta Description -->
+<meta name="description" content="A comprehensive guide by Anubhav Gain on implementing Wazuh SIEM on AWS EC2. Learn step-by-step installation, configuring network intrusion detection with Suricata, creating dashboards, and alerting systems to enhance your network security monitoring.">
+
+<!-- SEO Keywords -->
+<meta name="keywords" content="Wazuh SIEM, Splunk, Network Security, Intrusion Detection System, Cybersecurity, Anubhav Gain, BeyondTheFirewall, SIEM Implementation, AWS EC2, Wazuh Installation, Suricata IDS, Log Monitoring, Dashboard Creation, Alerting Systems">
+
+<!-- Open Graph Meta Tags for Social Media -->
+<meta property="og:title" content="Wazuh SIEM - Comprehensive Guide by Anubhav Gain | BeyondTheFirewall">
+<meta property="og:description" content="Explore Anubhav Gain's comprehensive guide on implementing Wazuh SIEM on AWS EC2. Enhance your network security with intrusion detection, log monitoring, dashboards, and alerting systems.">
+<meta property="og:url" content="https://www.beyondthefirewall.com/Wazuh-SIEM-comprehensive-guide.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://www.beyondthefirewall.com/images/wazuh-siem-og.jpg">
+<meta property="og:site_name" content="BeyondTheFirewall">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wazuh SIEM - Comprehensive Guide by Anubhav Gain | BeyondTheFirewall">
+<meta name="twitter:description" content="Discover how to implement Wazuh SIEM on AWS EC2 in this detailed guide by cybersecurity expert Anubhav Gain. Improve your network security monitoring with intrusion detection, log analysis, dashboards, and alert systems.">
+<meta name="twitter:image" content="https://www.beyondthefirewall.com/images/wazuh-siem-twitter.jpg">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.beyondthefirewall.com/Wazuh-SIEM-comprehensive-guide.html">
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="assets/css/main.css" />
+
+<!-- Additional SEO Enhancements -->
+<meta name="author" content="Anubhav Gain">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1a1a1a">
+
+<!-- Structured Data (JSON-LD) for Enhanced SEO -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Wazuh SIEM - Comprehensive Guide",
+    "description": "A comprehensive guide by Anubhav Gain on implementing Wazuh SIEM on AWS EC2. Learn step-by-step installation, configuring network intrusion detection with Suricata, creating dashboards, and alerting systems to enhance your network security monitoring.",
+    "image": "https://www.beyondthefirewall.com/images/wazuh-siem-og.jpg",
+    "author": {
+        "@type": "Person",
+        "name": "Anubhav Gain",
+        "url": "https://www.beyondthefirewall.com/AboutMe.html",
+        "sameAs": [
+            "https://www.linkedin.com/in/anubhavgain/",
+            "https://github.com/mranv",
+            "https://twitter.com/anubhavgain"
+        ],
+        "jobTitle": "DevSecOps Engineer & Cybersecurity Specialist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Infopercept Consulting"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Parul University"
+        }
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "BeyondTheFirewall",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.beyondthefirewall.com/images/logo.png"
+        }
+    },
+    "datePublished": "2024-04-27",
+    "dateModified": "2024-04-27",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.beyondthefirewall.com/Wazuh-SIEM-comprehensive-guide.html"
+    }
+}
+</script>
+
+<!-- Google Analytics (Optional) -->
+<!-- Replace 'UA-XXXXXXXXX-X' with your actual Tracking ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
 <link rel="stylesheet" href="assets/css/main.css" />
 <style>
 body {
